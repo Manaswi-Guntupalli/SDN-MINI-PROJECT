@@ -1,0 +1,7 @@
+=== Latency Comparison (Under Load) ===
+Baseline avg RTT: 589.348 ms
+QoS avg RTT:      7.174 ms
+Improvement:      582.174 ms (98.78%)
+=== Scenario 1 Validation ===
+Baseline allowed-vs-blocked pass: True
+QoS allowed-vs-blocked pass:      True

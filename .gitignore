@@ -4,5 +4,4 @@ __pycache__/
 *.log
 *.swp
 *.tmp
-artifacts/
 .venv/

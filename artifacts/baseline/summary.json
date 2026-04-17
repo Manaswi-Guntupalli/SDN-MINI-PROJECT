@@ -1,0 +1,28 @@
+{
+  "mode": "baseline",
+  "qos_enabled": false,
+  "scenarios": {
+    "scenario1_allowed_vs_blocked": {
+      "allowed": {
+        "avg_ms": 10.234,
+        "loss_percent": 0.0
+      },
+      "blocked": {
+        "avg_ms": -1.0,
+        "loss_percent": 100.0
+      },
+      "pass": true
+    },
+    "scenario2_latency_under_congestion": {
+      "no_load": {
+        "avg_ms": 10.502,
+        "loss_percent": 0.0
+      },
+      "under_load": {
+        "avg_ms": 219.517,
+        "loss_percent": 0.0
+      },
+      "high_priority_udp_excerpt": "[  1] Server Report:\n[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams\n[  1] 0.0000-8.8889 sec  7.55 MBytes  7.13 Mbits/sec   0.573 ms 323/5710 (5.7%)"
+    }
+  }
+}
