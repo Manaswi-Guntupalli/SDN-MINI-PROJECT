@@ -44,6 +44,15 @@ The controller supports Ryu-compatible execution and is run with OS-Ken in this 
 
 ## 4. Network and Policy Summary
 
+### Network Topology
+
+![Network Topology](screenshots/network_topology.png)
+
+This topology consists of a single OpenFlow 1.3 switch (s1) connecting five hosts.
+Traffic to the application server (h5) is constrained by a 10 Mbps bottleneck link,
+allowing evaluation of QoS policies such as prioritization, best-effort handling,
+and traffic blocking.
+
 - Topology: single OpenFlow 1.3 switch (`s1`) with hosts `h1` to `h5`
 - Server: `h5`
 - Allowed priority source: `h1`
