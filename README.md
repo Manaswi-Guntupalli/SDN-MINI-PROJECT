@@ -6,7 +6,7 @@ This project demonstrates Software Defined Networking (SDN)-based Quality of Ser
 
 The controller supports Ryu-compatible execution and is run with OS-Ken in this environment.
 
-## 2. What This Project Proves
+## 2. Key Outcomes
 
 - The controller initializes correctly and handles OpenFlow events.
 - The switch-controller handshake is successful.
@@ -245,6 +245,8 @@ What it proves:
 - QoS drastically reduces latency under congestion
 - Congestion is handled effectively for priority traffic
 - Strong quantitative performance evidence is provided
+
+This improvement occurs because high-priority traffic is placed in a dedicated queue, preventing it from being delayed by bulk TCP traffic.
 
 ### Screenshot 10: Validation Script Output
 
