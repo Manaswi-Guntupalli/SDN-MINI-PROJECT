@@ -186,13 +186,13 @@ What it proves:
 What is shown:
 
 - TCP traffic from `h2` to `h5` using `iperf`
-- High throughput (about `33+ Gbits/sec` in capture)
+- High reported throughput in the capture (due to Mininet's virtualized environment; actual link capacity is 10 Mbps)
 
 What it proves:
 
-- Heavy traffic is generated successfully
-- Congestion scenario is created
-- This acts as baseline best-effort load
+- Bulk TCP traffic is successfully generated
+- This traffic creates congestion at the bottleneck link (10 Mbps)
+- It serves as background load for evaluating QoS behavior under contention
 
 ### Screenshot 7: UDP High-Priority Traffic (QoS Flow)
 
